@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# based on https://github.com/wmnnd/nginx-certbot/blob/master/init-letsencrypt.sh (see license in ./3rd-party-license/)
+
 # read domains from .domains file
 if [ ! -f ".domain" ]; then
     echo "error: The file .domain is missing. You must create this file containing the domain names."

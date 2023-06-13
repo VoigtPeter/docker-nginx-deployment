@@ -1,2 +1,5 @@
-.domains
+.domain
 .certbot.conf
+data/
+log.*
+nginx.conf
